@@ -28,17 +28,17 @@ function calcCartPriceAndDelivery() {
         cartDelivery.classList.add('none');
     }
 
-    // когда сумма заказа будет >=600 меняем цвет и текст
-    if ( totalPrice >= 600) {
+    // когда сумма заказа будет >=20 меняем цвет и текст
+    if ( totalPrice >= 20) {
         deliveryCost.classList.add('free');
-        deliveryCost.innerText = 'бесплатно';
+        deliveryCost.innerText = 'free';
     } else {
         deliveryCost.classList.remove('free');
-        deliveryCost.innerText = '250 ₽';
+        deliveryCost.innerText = '5 €';
     }
 
-    // При заказе меньше 600 в итого прибавляем стоимость доставки
-    // if (totalPrice > 0 && totalPrice < 600) {
+    // При заказе меньше 20 в итого прибавляем стоимость доставки
+    // if (totalPrice > 0 && totalPrice < 20) {
     //     totalPriceEl.innerText = totalPrice + parseInt(deliveryCost.innerText);
     // }
 }
