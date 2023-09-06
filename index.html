@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<title>Магазин роллов</title>
+	<title>Sushi shop</title>
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
@@ -15,31 +15,31 @@
 
 	<header class="header">
 		<div class="container text-center">
-			<img src="img/logo/logo.svg" width="92" alt="Суши и пицца">
-			<div class="display-4">Доставка роллов</div>
-			<p class="lead">Оперативно и вкусно</p>
+			<img src="img/logo/logo.svg" width="92" alt="Sushi and pizza">
+			<div class="display-4">Sushi delivery</div>
+			<p class="lead">Fast and tasty</p>
 		</div>
 	</header>
 
 	<div class="container mb-5">
 		<div class="row">
 
-			<!-- Товары -->
+			<!-- Goods -->
 			<div class="col-md-8">
 				<div class="row" id="products-container">
 
 				</div>
 			</div>
 
-			<!-- Корзина -->
+			<!-- Cart -->
 			<div class="col-md-4">
 
-				<!-- Корзина -->
+				<!-- Cart -->
 				<div class="card mb-4">
 					<div class="card-body">
-						<h5 class="card-title">Ваш заказ</h4>
+						<h5 class="card-title">Your order</h4>
 						<div data-cart-empty class="alert alert-secondary" role="alert">
-							Корзина пуста
+							Cart is empty
 						</div>
 						<!-- cart-wrapper -->
 						<div class="cart-wrapper">
@@ -47,44 +47,44 @@
 						</div>
 						<!-- // cart-wrapper -->
 
-						<!-- Стоимость заказа -->
+						<!-- Order cost -->
 						<div class="cart-total">
 							<p data-cart-delivery class="none">
-								<span class="h5">Доставка:</span> 
-								<span class="delivery-cost">250 ₽</span><br>
-								<span class="small">Бесплатно при заказе от 600 ₽</span>
+								<span class="h5">Delivery:</span> 
+								<span class="delivery-cost">7 €</span><br>
+								<span class="small">Free for orders over 20 €</span>
 							</p>
 							<p>
-								<span class="h5">Итого:</span> 
+								<span class="h5">Order cost:</span> 
 								<span class="total-price">0</span> 
-								<span class="rouble">₽</span>
+								<span class="rouble">€</span>
 							</p>
 						</div>
-						<!-- // Стоимость заказа -->
+						<!-- // Order cost -->
 
 					</div>
 
-					<!-- Оформить заказ -->
+					<!-- Checkout -->
 					<div id="order-form" class="card-body border-top">
-						<h5 class="card-title">Оформить заказ</h4>
+						<h5 class="card-title">Checkout</h5>
 						<form>
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Ваш номер телефона">
+								<input type="text" class="form-control" placeholder="Your phone number">
 							</div>
-							<button type="submit" class="btn btn-primary">Заказать</button>
+							<button type="submit" class="btn btn-primary">Order</button>
 						</form>
 					</div>
-					<!-- // Оформить заказ -->
+					<!-- // Checkout -->
 
 				</div>
-				<!-- // Корзина -->
+				<!-- // Cart -->
 
 
 			</div>
 		</div>
 	</div>
 
-	<!-- Подключаем скрипты -->
+	<!-- We connect scripts -->
 	<script src="./js/renderProducts.js"></script>
 	<script src="./js/calcCartPrice.js"></script>
 	<script src="./js/toggleCartStatus.js"></script>
