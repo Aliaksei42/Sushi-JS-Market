@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Филадельфия хит ролл",
+        "title": "Philadelphia hit roll",
         "itemsInBox": 6,
         "weight": 180,
         "price": 7,
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "title": "Калифорния темпура",
+        "title": "California tempura",
         "itemsInBox": 6,
         "weight": 205,
         "price": 5,
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "title": "Запеченый ролл Калифорния",
+        "title": "Baked roll California",
         "itemsInBox": 6,
         "weight": 182,
         "price": 4,
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "title": "Филадельфия",
+        "title": "Philadelphia",
         "itemsInBox": 6,
         "weight": 230,
         "price": 6,
